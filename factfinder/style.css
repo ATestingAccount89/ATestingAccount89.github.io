@@ -1,0 +1,59 @@
+#main{
+	background-color:#425261;
+	width:1000px;
+	height:900px;
+	border:5px solid #879bad;
+	color:#ffffff;
+	display:grid;
+	grid-template:0.8fr 4fr/ 1fr;
+				  /*rows*/       /*columns*/
+}
+
+#a{
+	display:grid;
+	grid-template:1fr/1fr 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+	padding:10px;
+	
+}
+#a > input{
+	background-color:#252830;
+	color:#cccccc;
+	border:5px solid #404040;
+	
+	
+}
+#a > input:hover{
+	background-color:#313642;
+	
+}
+
+#b {
+	padding:10px;
+	
+}
+
+#main > div{
+	color:#ffffff;
+	font-size:20px;
+	border:3px solid #508291;
+	background-color:#4e5c8a;
+	
+}
+#img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	
+}
+
+body{
+	font-family:"Trebuchet MS";
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background-image:url('images/space.jpg');
+	background-size: cover;
+	
+}
